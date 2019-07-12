@@ -26,11 +26,12 @@ form = '''<!DOCTYPE html>
     </head>
     <body>
         <form method="post">
-            How many characters would you like to rotate?
+            Encrypt a message!
             <br>
-            <input type="text" name="rot" value="Enter a number">
+            <input type="text" name="rot" placeholder="Enter a number">
             <br><br>
             <textarea rows="4" cols="50" name="text" placeholder="Enter your message">{0}</textarea>
+            <br>
             <button type="submit">submit</button>
         </form>
     </body>
